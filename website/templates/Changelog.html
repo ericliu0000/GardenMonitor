@@ -1,40 +1,23 @@
 <html>
+
 <body>
-<style>
-    body {
-        background-color:black;
-    }
-    
-    h1 {
-        text-align:center;
-        color:white;
-    }
-    
-  
-    input {
-        color:yellow;
-        background-color:black;
-        border-color: white;
-        height:100;
-        width:100;
-    }
-        
-    p {
-        color:white;
-    }
-</style>
-<h1> Changelog </h1>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/Home.css') }}">
+    </head>
+    <h1> Changelog </h1>
 
 
-<p> Change, Date, Time </p>
+    <p> Change, Date, Time </p>
 
 
-<a href="Home.html">
-    <input type="submit" value="Home" />
-</a>
+    <a href="Home.html">
+        <input type="submit" value="Home" />
+    </a>
 
 
-<input value = "Implement Time Features Here" class = four>
+    <input value="Implement Time Features Here" class=four>
 
 </body>
+
 </html>

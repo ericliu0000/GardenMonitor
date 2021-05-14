@@ -1,73 +1,36 @@
 <html>
+
 <body>
-<style>
-    body {
-        background-color:black;
-    }
 
-    h1 {
-        text-align: center;
-        color:white;
-    }
-
-    input {
-        color:yellow;
-        background-color:black;
-        border-color: white;
-        height: 300;
-        width: 300;
-        margin-top: 200;
-        font-size: 40;
-        font-family: 'Times New Roman';
-        text-align: center;
-    }
-    .one {
-        margin-left: 400;
-    }
-
-    .two {
-        margin-left: 550;
-    }
-
-    .three {
-        height:40;
-        width: 100;
-        font-size: 15;
-    }
-
-    .four {
-        height: 40;
-        width: 200;
-        font-size: 12;
-        margin-left: 1582;
-    }
-</style>
-
-<h1> Home </h1>
+    <head>
+        <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/Home.css') }}">
+    </head>
+    <h1> Home </h1>
 
 
-<a href="Schedule.html" >
-    <input type="submit" value ="Schedule" class = one> 
-</a>
+    <a href="Schedule.html">
+        <input type="submit" value="Schedule" class=one>
+    </a>
 
 
-<a href="Water%20Amount.html">
-    <input type="submit" value="Water Amount" class = two>
-</a>
+    <a href="Water%20Amount.html">
+        <input type="submit" value="Water Amount" class=two>
+    </a>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-<a href="Changelog.html">
-    <input type="submit" value ="Changelog" class = three>
-</a>
+    <a href="Changelog.html">
+        <input type="submit" value="Changelog" class=three>
+    </a>
 
-<input value = "Implement Time Features Here" class = four>
+    <input value="Implement Time Features Here" class=four>
 
 
 </body>
+
 </html>

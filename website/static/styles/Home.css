@@ -1,0 +1,56 @@
+
+p {
+    color:white;
+}
+
+body {
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+input {
+    color:yellow;
+    background-color:black;
+    border-color: white;
+    height: 300;
+    width: 300;
+    margin-top: 200;
+    font-size: 40;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+.one {
+    margin-left: 400;
+}
+
+.two {
+    margin-left: 550;
+}
+
+.three {
+    height:40;
+    width: 100;
+    font-size: 15;
+}
+
+.four {
+    height: 40;
+    width: 200;
+    font-size: 12;
+    margin-left: 1582;
+}
+
+.five {
+    margin-top:100;
+    margin-left:0;
+}
+
+img {
+    width: 300;
+    height: 300;
+} 
+

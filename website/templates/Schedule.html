@@ -1,62 +1,25 @@
 <html>
+
 <body>
-<style>
-    body {
-        background-color:black;
-    }
-    
-    h1 {
-        text-align:center;
-        color:white;
-    }
-       
-    input {
-        color:yellow;
-        background-color:black;
-        border-color: white;
-        height: 300;
-        width: 300;
-        font-size: 40;
-        font-family: 'Times New Roman';
-        text-align: center;
-        margin-left:100;
-    }
 
-    img {
-        width: 300;
-        height: 300;
-    } 
-    p {
-        color:white;
-    }
+    <head>
+        <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/Home.css') }}">
+    </head>
+    <h1> Schedule </h1>
 
-    .four {
-        height: 40;
-        width: 200;
-        font-size: 12;
-        margin-left: 1682;
-    }
-    
-    .five {
-        margin-top:100;
-        margin-left:0;
-    }
-</style>
+    <a href="Home.html">
+        <input type="submit" value="Home">
+    </a>
 
-<h1> Schedule </h1>
+    <img src="TemplateOne.jpg" alt=Table class=five>
 
-<a href = "Home.html">
-    <input type = "submit" value = "Home" >  
-</a>
-
-<img src = "TemplateOne.jpg" alt = Table class = five>
-
-<br>
-<br>
-<br>
+    <br>
+    <br>
+    <br>
 
 
-<input value = "Implement Time Features Here" class = four>
+    <input value="Implement Time Features Here" class=four>
 
 </body>
+
 </html>
