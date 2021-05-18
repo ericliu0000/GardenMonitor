@@ -1,10 +1,15 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
 
-@app.route("/Home.html")
+@app.route("/")
 def index():
+    return redirect("/Home.html")
+
+
+@app.route("/Home.html")
+def home():
     return render_template("Home.html")
 
 
@@ -13,24 +18,16 @@ def changelog():
     return render_template("Changelog.html")
 
 
-@app.route("/Schedule.html")
-def schedule():
-    return render_template("Schedule.html")
-
-
 @app.route("/Water Amount.html")
 def water_amount():
     return render_template("Water Amount.html")
 
 
-@app.route('/', methods=["GET", "POST"])
-def test():
+@app.route('/Schedule.html', methods=["GET", "POST"])
+def schedule():
     if request.method == "POST":
-        pass
-        # use like this
-        # first_name = request.form.get("fname")
-        #last_name = request.form.get("lname")
-        # return "Your name is "+ first_name + last_name
+        print("Got a form response")
+        print(request.args)
     return render_template("Schedule.html")
 
 
