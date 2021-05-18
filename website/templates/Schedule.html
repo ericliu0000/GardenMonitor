@@ -5,6 +5,8 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/Schedule.css') }}">
     </head>
 
+    <form action = "{{ url_for("schedule")}}" method = "post">
+
     <h1> Schedule </h1>
 
     <a href="Home.html">
@@ -16,14 +18,12 @@
     <br>
 
     <span>
-        <input type = "button" value = "^" class = "first"/>
+        <input type = "button" value = "^" class = "first" id = "up" />
             <div class = "middle"> Interval:
-                <p> {} Hours </p> 
+                <p> <!--- {{ value }} --> X Hours </p> 
             </div>
-        <input type = "button" value = "v" class = "last"/>
+        <input type = "button" value = "v" class = "last" id = "down" />
     </span>
-
-    <form action = "{{ url_for("schedule")}}" method = "post">
 
 </body>
 </html>
