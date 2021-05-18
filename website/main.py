@@ -26,7 +26,7 @@ def water_amount():
 @app.route('/Schedule.html', methods=["GET", "POST"])
 def schedule():
     if request.method == "POST":
-        print(request.form.getlist("Sun12am"))
+        print(request.form.get(""))
     return render_template("Schedule.html")
 
 
