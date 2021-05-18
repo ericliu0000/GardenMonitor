@@ -1,0 +1,66 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+input {
+    color:yellow;
+    background-color:black;
+    border-color: white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 30;
+}
+
+div {
+    font-size: 20;
+    display: inline-block;
+    height: 100;
+    width: 200;
+    border: solid 2px white;
+    background-color: black;
+    margin: 20;
+    padding:20;
+    text-align: center;
+    color: yellow;
+
+  }
+
+span {
+    display:inline-block;
+    
+}
+
+p {
+    color: blue;
+    font-size: 15;
+}
+
+.home {
+    height: 100;
+    width: 100;
+    font-size: 20;
+    margin-left: 20;
+}
+
+.first {
+    margin-left:500;
+    height: 200;
+    width: 200;
+}
+
+.middle {
+    margin-left:100;
+    height: 75;
+    width: 250;
+
+}
+
+.last {
+    margin-left:100;
+    height: 200;
+    width: 200;
+}

@@ -1,32 +1,29 @@
 <html>
-
 <body>
 
     <head>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/Schedule.css') }}">
     </head>
+
     <h1> Schedule </h1>
 
     <a href="Home.html">
-        <input type = "submit" value = "Home">
+        <input type = "submit" value = "Home" class = "home">
     </a>
 
     <br>
     <br>
     <br>
 
-    <input type="submit" value="Down">
-    <p height = "300" width = 300 border-color = "black">  a</p>
-    <input type="submit" value=" Up">
+    <span>
+        <input type = "button" value = "^" class = "first"/>
+            <div class = "middle"> Interval:
+                <p> {} Hours </p> 
+            </div>
+        <input type = "button" value = "v" class = "last"/>
+    </span>
 
-    <form action="{{ url_for("schedule")}}" method = "post">
-
-
-
-
-    
-
+    <form action = "{{ url_for("schedule")}}" method = "post">
 
 </body>
-
 </html>
