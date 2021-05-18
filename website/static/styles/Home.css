@@ -54,3 +54,15 @@ img {
     height: 300;
 } 
 
+table, td {
+    border: 2px solid black;
+    text-align: center;
+}
+td {
+    width:80;
+}
+
+.space {
+    width:1100;
+    height:100;
+}
