@@ -1,0 +1,13 @@
+table, td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    width:85;
+}
+
+.space {
+    width:1900;
+    height:100;
+}
