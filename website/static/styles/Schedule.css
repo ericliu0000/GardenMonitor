@@ -1,13 +1,45 @@
-table, td {
-    border: 2px solid black;
+body {
+    background-color:black;
+}
+
+h1 {
     text-align: center;
+    color: white;
+}
+
+table, td {
+    border: 2px solid;
+    text-align: center;
+    color: white;
+    border-color: white;
 }
 
 td {
     width:85;
 }
 
-.space {
-    width:1900;
-    height:100;
+.big {
+    color:yellow;
+    background-color:black;
+    border-color: white;
+    height: 100;
+    width: 200;
+    font-size: 30;
+    font-family: 'Times New Roman';
+    text-align: center;
 }
+
+.big2 {
+    color:yellow;
+    background-color:black;
+    border-color: white;
+    height: 100;
+    width: 200;
+    font-size: 30;
+    margin-top: 25;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+
+
