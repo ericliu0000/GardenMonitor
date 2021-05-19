@@ -26,8 +26,11 @@ def water_amount():
 
 @app.route('/Schedule.html', methods=["GET", "POST"])
 def schedule():
-    pass
-    return render_template("Schedule.html")
+    if request.method == "POST":
+        print("schedule post")
+    else:
+        value = 6
+    return render_template("Schedule.html", value=13)
 
 if __name__ == "__main__":
     app.run(debug = True, host="0.0.0.0")
