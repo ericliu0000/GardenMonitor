@@ -3,34 +3,37 @@ import sqlite3
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def index():
     return redirect("/Home.html")
 
-
 @app.route("/Home.html")
 def home():
-    return render_template("Home.html")
-
+    import datetime
+    current = datetime.datetime.now()
+    currentTime = current.strftime("%Y-%m-%d %H:%M:%S")
+    return render_template("/Home.html", time = currentTime)
 
 @app.route("/Changelog.html")
 def changelog():
-    return render_template("Changelog.html")
-
+    import datetime
+    current = datetime.datetime.now()
+    currentTime = current.strftime("%Y-%m-%d %H:%M:%S")
+    return render_template("/Changelog.html", time = currentTime)
 
 @app.route("/Water Amount.html")
 def water_amount():
-    return render_template("Water Amount.html")
-
+    import datetime
+    current = datetime.datetime.now()
+    currentTime = current.strftime("%Y-%m-%d %H:%M:%S")
+    return render_template("/Water Amount.html", time = currentTime)
 
 @app.route('/Schedule.html', methods=["GET", "POST"])
 def schedule():
-    if request.method == "POST":
-        print("schedule post")
-    else:
-        value = 6
-    return render_template("Schedule.html", value = 13)
+    import datetime
+    current = datetime.datetime.now()
+    currentTime = current.strftime("%Y-%m-%d %H:%M:%S")
+    return render_template("/Schedule.html", time = currentTime)
 
 if __name__ == "__main__":
     app.run(debug = True, host="0.0.0.0")

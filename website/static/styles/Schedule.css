@@ -28,7 +28,7 @@ p {
     width: 300;
     height: 125;
     border: 2px solid white;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
 }
 
 .home {
@@ -40,12 +40,23 @@ p {
 
 span {
     color: yellow;
-    font-size:15
+    font-size: 15
 }
 
 .btn button{
     height: 200;
     width: 200;
-    float:left;
-    margin-left:500
+    float: left;
+    margin-left: 500
+}
+
+.extra {
+    color:yellow;
+    border: 2px solid white;
+    text-align: center;
+    width: 150;
+    margin-top: 693;
+    float: right;
+    font-size: 15;
+    height: 15;
 }

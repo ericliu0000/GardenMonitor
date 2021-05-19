@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    text-align:center;
+    text-align: center;
     color:white;
 }
 
@@ -11,10 +11,25 @@ input {
     color:yellow;
     background-color:black;
     border-color: white;
-    height:100;
-    width:100;
+    height: 100;
+    width: 100;
 }
     
 p {
     color:white;
+}
+
+.extra {
+    color:yellow;
+    border: 2px solid white;
+    text-align: center;
+    width: 150;
+    margin-top: 795;
+    float: right;
+    font-size: 15;
+    height: 15;
+}
+
+.home {
+    margin-left: 20;
 }

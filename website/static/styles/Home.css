@@ -7,6 +7,16 @@ h1 {
     color:white;
 }
 
+p {
+    color:yellow;
+    border: 2px solid white;
+    text-align: center;
+    width:150;
+    margin-top: 293;
+    float: right;
+    font-size: 15;
+    height: 15;
+}
 input {
     color:yellow;
     background-color:black;
@@ -28,14 +38,8 @@ input {
 }
 
 .three {
-    height:40;
+    height: 40;
     width: 100;
     font-size: 15;
-}
-
-.four {
-    height: 40;
-    width: 200;
-    font-size: 12;
-    margin-left: 1582;
+    margin-top: 275;
 }
