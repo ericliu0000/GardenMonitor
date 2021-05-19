@@ -30,7 +30,7 @@ def schedule():
         print("schedule post")
     else:
         value = 6
-    return render_template("Schedule.html", value=13)
+    return render_template("Schedule.html", value = 13)
 
 if __name__ == "__main__":
     app.run(debug = True, host="0.0.0.0")

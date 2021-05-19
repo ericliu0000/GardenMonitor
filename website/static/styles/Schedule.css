@@ -17,37 +17,18 @@ input {
 }
 
 button {
-    color:yellow;
     background-color:black;
     border-color: white;
-    font-family: 'Times New Roman';
-    text-align: center;
-    font-size: 30;
-}
-
-
-div {
-    font-size: 20;
-    display: inline-block;
-    height: 100;
-    width: 200;
-    border: solid 2px white;
-    background-color: black;
-    margin: 20;
-    padding:20;
-    text-align: center;
-    color: yellow;
-
-  }
-
-span {
-    display:inline-block;
-    
 }
 
 p {
     color: blue;
-    font-size: 15;
+    margin-left: 300;
+    font-size: 20;
+    width: 300;
+    height: 125;
+    border: 2px solid white;
+    font-family:'Times New Roman';
 }
 
 .home {
@@ -57,21 +38,14 @@ p {
     margin-left: 20;
 }
 
-.first {
-    margin-left:500;
-    height: 200;
-    width: 200;
+span {
+    color: yellow;
+    font-size:15
 }
 
-.middle {
-    margin-left:100;
-    height: 75;
-    width: 250;
-
-}
-
-.last {
-    margin-left:100;
+.btn button{
     height: 200;
     width: 200;
+    float:left;
+    margin-left:500
 }

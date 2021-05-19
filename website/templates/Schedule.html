@@ -17,13 +17,14 @@
     <br>
 
     <form action = "{{ url_for("schedule")}}" method = "post">
-    <span>
-        <button type = "submit" value = "^" class = "first" id = "up" />
-            <div class = "middle"> Interval:
-                <p> - {{ value }} X Hours </p> 
-            </div>
-        <button type = "submit" value = "v" class = "last" id = "down" />
-    </span>
+    
+    <div class = "btn">
+        <button type = "submit" id = "up" />
+            <p> <br> Interval: <br> <br> 
+                <span> {{ value }} X Hours </span> 
+            </p>
+        <button type = "submit" id = "down" />
+    </div>
 
 </body>
 </html>
