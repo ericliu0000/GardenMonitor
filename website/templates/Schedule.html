@@ -1,5 +1,4 @@
 <html>
-
 <body>
 
     <head>
@@ -9,23 +8,22 @@
 
     <h1> Schedule </h1>
 
-    <a href="Home.html">
-        <input type="submit" value="Home" class="home">
+    <a href = "Home.html">
+        <input type ="submit" value = "Home" class ="home">
     </a>
 
     <br>
     <br>
     <br>
 
-    <form action="{{ url_for("schedule")}}" method="POST">
-        <input name="text" type="number">
-        <input type="submit">
+    <form action = "{{ url_for("schedule")}}" method = "POST">
+        <input name = "text" type = "number">
+        <input type = "submit" id = "ScheduleSubmit">
     </form>
 
-    <body> {{ status }} </body>
+    <p> {{ status }} </p>
 
-    <p class="extra"> {{ time }} </p>
+    <p class = "extra"> {{ time }} </p>
 
 </body>
-
 </html>
