@@ -16,13 +16,6 @@ def home():
     currentTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return render_template("/Home.html", time=currentTime)
 
-
-@app.route("/Changelog.html")
-def changelog():
-    currentTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    return render_template("/Changelog.html", time=currentTime)
-
-
 @app.route("/Water Amount.html")
 def water_amount():
     currentTime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
