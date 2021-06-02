@@ -1,0 +1,29 @@
+<html>
+<body>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/Schedule.css') }}">
+    </head>
+
+
+    <h1> Schedule </h1>
+
+    <a href = "Home.html">
+        <input type ="submit" value = "Home" class ="home">
+    </a>
+
+    <br>
+    <br>
+    <br>
+
+    <form action = "{{ url_for("schedule")}}" method = "POST">
+        <input name = "text" type = "number">
+        <input type = "submit" id = "ScheduleSubmit">
+    </form>
+
+    <p> {{ status }} </p>
+
+    <p class = "extra"> {{ time }} </p>
+
+</body>
+</html>

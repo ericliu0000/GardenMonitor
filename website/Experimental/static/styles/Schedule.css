@@ -1,0 +1,66 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+input {
+    color:yellow;
+    background-color:black;
+    border-color: white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 30;
+}
+
+button {
+    background-color:black;
+    border-color: white;
+}
+
+p {
+    margin-left: 10;
+}
+
+.home {
+    height: 100;
+    width: 100;
+    font-size: 20;
+    margin-left: 20;
+}
+
+span {
+    color: yellow;
+    font-size: 15
+}
+
+.btn button{
+    height: 200;
+    width: 200;
+    float: left;
+    margin-left: 500
+}
+
+.extra {
+    color: blue;
+    margin-left: 300;
+    font-size: 20;
+    width: 300;
+    height: 125;
+    border: 2px solid white;
+    font-family: 'Times New Roman';
+    color:yellow;
+    border: 2px solid white;
+    text-align: center;
+    width: 150;
+    margin-top: 610;
+    float: right;
+    font-size: 15;
+    height: 15;
+}
+body {
+    color:white
+}
