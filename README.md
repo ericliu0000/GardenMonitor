@@ -6,7 +6,7 @@ A program intended to run on a small single board computer that deploys a web in
 
 ### Running
 
-You may download a .zip file, and just run `main.py` in the `website/` directory. Requirements are in `website/requirements.txt`
+You may download a .zip file, and just run `main.py` in the `website/` directory. Requirements are in the source files.
 
 ### Notes
 
